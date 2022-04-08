@@ -1,0 +1,37 @@
+@import './base/_mixins.scss';
+@import './base/_variables.scss';
+@import '../pages/CharactersPage/_charactersPage';
+@import '../pages/MoviesPage/_moviesPage';
+@import '../pages/PlanetsPage/_planetsPage';
+@import '../pages/DetailedCharacter/_detailedCharacter';
+@import '../shared/components/Navbar/_navbar';
+@import '../pages/Home/_home';
+@import '../components/LoginForm/_loginForm';
+@import '../components/RegisterForm/_registerForm';
+.App {
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding:0;
+  background-image: url("../../public/assets/stars.jpg");
+  text-decoration: none;
+  color: #EEB800;
+        font-family: 'Bebas Neue', cursive;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.loading {
+  width: 400px;
+  height: 400px;
+}

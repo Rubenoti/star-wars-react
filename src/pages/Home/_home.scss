@@ -1,0 +1,37 @@
+.home{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    &__text{
+        font-size:40px;
+    }
+     &__cards{
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         align-items: center;
+         margin-top: 60px;
+         &__card{ 
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             width: 400px;
+             height: 400px;
+             &:hover {
+                 -webkit-transform: scale(1.2);
+                 -moz-transform: scale(1.2);
+                 -o-transform: scale(1.2);
+                 -ms-transform: scale(1.2);
+                 transform: scale(1.2);
+                 transition: all 1200ms;
+                 z-index: 99;
+               }
+               transition: all 1200ms;
+            img{
+                width: 100%;
+                 height: 100%;
+            }
+             }
+     }
+ }
